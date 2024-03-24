@@ -1,1 +1,1 @@
-(()=>{"use strict";!async function(){const a=await fetch("https://api.openweathermap.org/data/2.5/weather?units=metric&q=milan&appid=ace96045fa13e8edd3816230134b5da4"),t=await a.json();console.log(t)}()})();
+(()=>{"use strict";(async()=>{const a=await fetch("https://api.openweathermap.org/data/2.5/weather?units=metric&q=milan&appid=ace96045fa13e8edd3816230134b5da4");await a.json()})()})();
