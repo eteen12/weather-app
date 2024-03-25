@@ -1,4 +1,5 @@
 import apiFunc from './api';
+import conditionsFunc from './conditions';
 
 const cityFunc = async () => {
   const searchBox = document.querySelector('.search input');
