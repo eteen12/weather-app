@@ -9,8 +9,6 @@ const cityFunc = async () => {
     const city = searchBox.value.trim();
     if (city) {
       await apiFunc(city); // using await
-    } else {
-      console.log('Please enter a city');
     }
   });
 };

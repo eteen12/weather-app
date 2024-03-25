@@ -4,7 +4,6 @@ const conditionsFunc = async (data, city) => {
   const conditions = data.current.condition.text;
 
   if (city) {
-    console.log(conditions);
     if (conditions === 'Sunny' || conditions === 'Clear') {
       weatherIcon.innerHTML =
         '<span class="material-symbols-outlined" id="main-icon">sunny</span>';
