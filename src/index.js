@@ -1,3 +1,4 @@
+import dataControlFunc from './dataControl';
 import apiFunc from './api';
 
-apiFunc();
+dataControlFunc();

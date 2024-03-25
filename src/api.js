@@ -1,12 +1,10 @@
-const apiKey = 'ace96045fa13e8edd3816230134b5da4';
-const apiUrl =
-  'https://api.openweathermap.org/data/2.5/weather?units=metric&q=milan';
+const apiKey = '42e9a66ab9ea44fa9b133750242403';
+const apiUrl = 'http://api.weatherapi.com/v1/current.json?key=';
 
-const apiFunc = async () => {
-  const response = await fetch(`${apiUrl}&appid=${apiKey}`);
+const apiFunc = async (city) => {
+  const response = await fetch(`${apiUrl + apiKey}&q=${city}&aqi=no`);
   const data = await response.json();
-
-  return data;
+  console.log(data);
 };
 
 export default apiFunc;
