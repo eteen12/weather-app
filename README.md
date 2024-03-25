@@ -1,1 +1,1 @@
-This is a template containing my webpack, babel, prettier and eslint. and all my files along with webpack config ready to go.
+This is a project Im proud of. There is however room for improvment, on the if else statments, perhaps a "includes" could be used. Will be coming back to this s the future. Could also improve the text correction feature.
