@@ -19,7 +19,7 @@ body{
 .search input{
     border:none;
     outline: 0;
-    background: pink;
+    background: #ebfffc;
     color:#555;
     height:60px;
     width:60%;
