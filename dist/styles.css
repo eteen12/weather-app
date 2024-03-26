@@ -10,7 +10,7 @@ body{
     color:#fff;
     border-radius: 20px;
     text-align: center;
-    margin-top:5%;
+    margin-top:3%;
     margin-right: auto;
     margin-left: auto;
     padding-top:30px;
@@ -52,4 +52,16 @@ body{
 }
 #humidity-icon, #air-icon{
     font-size:300%;
+}
+@media(min-width:800px){
+    #humidity-icon, #air-icon{
+        font-size:800%;
+    }
+    #main-icon{
+        font-size: 1200%;
+        margin-top:5%;
+    }
+    .card{
+        margin-top: 1%;
+    }
 }
